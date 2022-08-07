@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "fd7f31a319ff9f6aef18e40e243e3f2f",
+    "content-hash": "1992ca9afcda5dd3ddfb6661a4e36c40",
     "packages": [
         {
             "name": "ezyang/htmlpurifier",
@@ -25,12 +25,12 @@
             },
             "type": "library",
             "autoload": {
-                "psr-0": {
-                    "HTMLPurifier": "library/"
-                },
                 "files": [
                     "library/HTMLPurifier.composer.php"
                 ],
+                "psr-0": {
+                    "HTMLPurifier": "library/"
+                },
                 "exclude-from-classmap": [
                     "/library/HTMLPurifier/Language/"
                 ]
@@ -162,16 +162,16 @@
         },
         {
             "name": "php-imap/php-imap",
-            "version": "4.5.1",
+            "version": "5.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/barbushin/php-imap.git",
-                "reference": "e630d64ccad6c575d25650ca93e793ac1a54eb12"
+                "reference": "13bdfa9a6f541798253e24e2d8f44332c8be098c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/barbushin/php-imap/zipball/e630d64ccad6c575d25650ca93e793ac1a54eb12",
-                "reference": "e630d64ccad6c575d25650ca93e793ac1a54eb12",
+                "url": "https://api.github.com/repos/barbushin/php-imap/zipball/13bdfa9a6f541798253e24e2d8f44332c8be098c",
+                "reference": "13bdfa9a6f541798253e24e2d8f44332c8be098c",
                 "shasum": ""
             },
             "require": {
@@ -180,7 +180,7 @@
                 "ext-imap": "*",
                 "ext-json": "*",
                 "ext-mbstring": "*",
-                "php": "^7.2 || ^8.0"
+                "php": "^7.4 || ^8.0"
             },
             "require-dev": {
                 "friendsofphp/php-cs-fixer": "^3.4",
@@ -226,9 +226,9 @@
             ],
             "support": {
                 "issues": "https://github.com/barbushin/php-imap/issues",
-                "source": "https://github.com/barbushin/php-imap/tree/4.5.1"
+                "source": "https://github.com/barbushin/php-imap/tree/5.0.0"
             },
-            "time": "2022-01-10T21:10:27+00:00"
+            "time": "2022-03-12T14:39:59+00:00"
         }
     ],
     "packages-dev": [],
@@ -238,7 +238,7 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": "^7.2"
+        "php": "^7.2|^8.1.8"
     },
     "platform-dev": [],
     "plugin-api-version": "2.2.0"
