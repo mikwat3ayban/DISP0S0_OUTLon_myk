@@ -65,7 +65,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
       <!-- Bootstrap CSS -->
       <link rel="stylesheet" href="assets/bootstrap/4.1.1/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-      <link rel="stylesheet" href="assets/fontawesome/v5.0.13/all.css" integrity="" crossorigin="anonymous">
+      <link rel="stylesheet" href="assets/fontawesome/v5.0.13/all.css">
       <title>
          <?php
             echo $emails ? "(" . count($emails) . ") " : "";
